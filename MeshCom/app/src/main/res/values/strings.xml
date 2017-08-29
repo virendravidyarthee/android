@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MeshCom</string>
+    <string name="username_prompt">Please enter a suitable username(This can be changed later from settings)</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="welcome">You are back! Yay!</string>
+    <string name="username_change">Please enter a new username and press okay. \nNote: This action requires an app restart</string>
+    <string name="Okay">Okay</string>
+    <string name="username">Username: </string>
+
+</resources>

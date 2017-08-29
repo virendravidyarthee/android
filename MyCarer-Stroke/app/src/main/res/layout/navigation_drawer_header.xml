@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="180dp"
+    android:background="@drawable/backdrawer"
+    >
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imgdrawer"
+        android:src="@drawable/ic_face_black_48dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Name"
+        android:textColor="#ffffff"
+        android:layout_toRightOf="@+id/imgdrawer"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/usernamedrawer"
+         />
+    <!--<TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="mansoor_1996@yahoo.co.in"
+        android:layout_toRightOf="@+id/img"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/email"
+        android:layout_below="@id/name"
+        />-->
+
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyCarer-Stroke</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="tts_title">Text To Speech</string>
+    <string name="sos_title">SOS</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

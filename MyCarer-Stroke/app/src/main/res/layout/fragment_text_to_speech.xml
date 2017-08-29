@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    tools:context="sccc.eample.mycarer_stroke.TextToSpeechFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INPUT:"
+        android:id="@+id/tv_enterText"
+        android:gravity="top"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text"
+        android:gravity="top"
+        android:maxLines="2"
+        android:overScrollMode="always"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="90dp"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:id="@+id/et_inputText" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Clear"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:id="@+id/clear_button"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/button_style" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Speak"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:id="@+id/speak_button"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/button_style" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Add Phrase to Custom Category"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:id="@+id/addPhrases_button"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/button_style" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Phrases"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:id="@+id/categories_button"
+        android:layout_marginTop="720dp"
+        android:background="@drawable/button_style" />
+
+
+
+
+
+</RelativeLayout>

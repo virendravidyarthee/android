@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    tools:context="sccc.eample.mycarer_stroke.ScoresFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="View 3x4 SCORES"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        android:id="@+id/bt_3x4"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button_style"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="View 4x4 SCORES"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        android:id="@+id/bt_4x4"
+        android:layout_below="@+id/bt_3x4"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button_style"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listview"
+        android:layout_below="@+id/bt_4x4">
+    </ListView>
+
+</RelativeLayout>

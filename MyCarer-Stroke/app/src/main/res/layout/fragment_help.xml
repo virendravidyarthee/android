@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sccc.eample.mycarer_stroke.HelpFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="How to add a relative?"
+        android:id="@+id/helpAdding"
+        android:layout_marginTop="50dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:background="@drawable/button_style"/>
+
+</RelativeLayout>

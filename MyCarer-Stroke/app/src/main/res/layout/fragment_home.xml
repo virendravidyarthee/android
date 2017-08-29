@@ -1,0 +1,127 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context="sccc.eample.mycarer_stroke.HomeFragment">
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginTop="10dp"
+        android:gravity="top"
+        android:src="@drawable/plus_logo"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="My Profile"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        android:id="@+id/profile_button"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/button_style" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="SOS"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="35dp"
+            android:id="@+id/sos_button"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/button_style" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Stroke Info"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="35dp"
+            android:id="@+id/strokeinfo_button"
+            android:layout_marginTop="550dp"
+            android:background="@drawable/button_style" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="My Relatives"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="35dp"
+            android:id="@+id/relatives_button"
+            android:layout_marginTop="700dp"
+            android:background="@drawable/button_style" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Text To Speech"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        android:id="@+id/texttospeech_button"
+        android:layout_marginTop="850dp"
+        android:background="@drawable/button_style" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Memory Game"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="35dp"
+            android:id="@+id/game_button"
+            android:layout_marginTop="1000dp"
+            android:background="@drawable/button_style" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Physiotherapy"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="35dp"
+            android:id="@+id/physiotherapy_button"
+            android:layout_marginTop="1150dp"
+            android:background="@drawable/button_style" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Dealing With Depression"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="35dp"
+            android:id="@+id/dwd_button"
+            android:layout_marginTop="1300dp"
+            android:background="@drawable/button_style" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Help"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="35dp"
+            android:id="@+id/help_button"
+            android:layout_marginTop="1450dp"
+            android:background="@drawable/button_style" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sccc.eample.mycarer_stroke.PhysiotherapyFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Elbow"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        android:id="@+id/bt_elbow"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_style" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Upper Limb"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        android:id="@+id/bt_upperLimb"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/button_style" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Lower Limb"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        android:id="@+id/bt_lowerLimb"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/button_style" />
+
+</FrameLayout>

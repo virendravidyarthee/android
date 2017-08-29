@@ -1,0 +1,105 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sccc.eample.mycarer_stroke.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="450dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/userImage"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="DOB: "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/et_dob"
+            android:layout_marginTop="550dp"
+            />
+
+        <TextView
+            android:text="Notes: "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/et_notes"
+            android:layout_marginTop="650dp"
+            />
+
+        <TextView
+            android:text="Caretaker1name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/et_caretaker1name"
+            android:layout_marginTop="750dp"
+            />
+
+        <TextView
+            android:text="Caretaker1number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/et_caretaker1number"
+            android:layout_marginTop="850dp"
+            />
+
+        <TextView
+            android:text="Caretaker2name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/et_caretaker2name"
+            android:layout_marginTop="950dp"
+            />
+
+        <TextView
+            android:text="Caretaker2number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/et_caretaker2number"
+            android:layout_marginTop="1050dp"
+            android:paddingBottom="100dp"
+            />
+        <Button
+            android:id="@+id/bt_gotoscores"
+            android:text="Scores"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_style"
+            android:layout_below="@+id/et_caretaker2number"
+            android:layout_marginBottom="25dp"/>
+        <Button
+            android:id="@+id/bt_gotoupdate"
+            android:text="Update"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_style"
+            android:layout_below="@+id/bt_gotoscores"/>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

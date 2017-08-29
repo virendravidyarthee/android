@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home_id"
+            android:title="Home"
+            android:icon="@drawable/home"
+            ></item>
+        <item
+            android:id="@+id/profile_id"
+            android:title="My Profile"
+            android:icon="@drawable/profile"
+            ></item>
+        <item
+            android:id="@+id/SOS_id"
+            android:title="SOS"
+            android:icon="@drawable/sos"
+            ></item>
+        <item
+            android:id="@+id/strokeinfo_id"
+            android:title="Stroke Info"
+            android:icon="@drawable/strokeinfo"
+            ></item>
+        <item
+            android:id="@+id/relatives_id"
+            android:title="My Relatives"
+            android:icon="@drawable/relatives"
+            ></item>
+        <item
+            android:id="@+id/texttospeech_id"
+            android:title="Text To Speech"
+            android:icon="@drawable/tts"
+            ></item>
+        <item android:title="Games">
+            <menu>
+                <item
+                    android:id="@+id/memorygame_id"
+                    android:title="Memory Game"
+                    android:icon="@drawable/game"
+                    ></item>
+            </menu>
+        </item>
+        <item android:title="Activities">
+            <menu>
+                <item
+                    android:id="@+id/physiotherapy_id"
+                    android:title="Phisiotherapy"
+                    android:icon="@drawable/physio"
+                    ></item>
+            </menu>
+        </item>
+        <item android:title="Help">
+            <menu>
+                <item
+                    android:id="@+id/dwd_id"
+                    android:title="Dealing With Depression"
+                    android:icon="@drawable/ic_tag_faces_black_48dp"
+                    ></item>
+                <item
+                    android:id="@+id/help_id"
+                    android:title="Help"
+                    android:icon="@drawable/help"
+                    ></item>
+            </menu>
+        </item>
+
+    </group>
+</menu>

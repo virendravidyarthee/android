@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context="sccc.eample.mycarer_stroke.CategoriesFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Intro"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        android:id="@+id/intro_button"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_style" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Food"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        android:id="@+id/food_button"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/button_style" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="My Custom"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        android:id="@+id/custom_button"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/button_style" />
+
+</FrameLayout>

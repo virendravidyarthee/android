@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="sccc.eample.mycarer_stroke.RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="*Enter Name"
+            android:gravity="top"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="40dp"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:id="@+id/et_name" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:hint="*Enter DOB"
+            android:gravity="top"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="140dp"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:id="@+id/et_dob" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:text="Notes:"
+            android:id="@+id/tv_notes"
+            android:gravity="top"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="240dp"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:maxLines="4"
+            android:overScrollMode="always"
+            android:scrollbarStyle="insideInset"
+            android:hint="eg. Medical Info and etc."
+            android:gravity="top"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:id="@+id/et_notes"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/tv_notes"
+            android:layout_alignTop="@+id/tv_notes" />
+
+        <Button
+            android:id="@+id/bt_choose"
+            android:text="Choose image"
+            android:layout_width="300dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="320dp"
+            android:background="@drawable/button_style"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/ic_face_black_48dp"
+            android:layout_marginTop="400dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Caretaker 1 Info"
+            android:textSize="16dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="670dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="*Enter Caretaker(1) Name"
+            android:gravity="top"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="700dp"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:id="@+id/et_caretaker1name" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="*Enter Caretaker(1) Phone Number"
+            android:gravity="top"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="800dp"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:id="@+id/caretaker1number" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Caretaker 2 Info (Optional)"
+            android:textSize="16dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="870dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Caretaker(2) Name"
+            android:gravity="top"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="900dp"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:id="@+id/et_caretaker2name" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Caretaker(2) Phone Number"
+            android:gravity="top"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1000dp"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:id="@+id/caretaker2number" />
+
+        <Button
+            android:id="@+id/bt_register"
+            android:text="Register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_style"
+            android:layout_marginTop="1100dp" />
+    </RelativeLayout>
+
+
+</ScrollView>

@@ -1,0 +1,76 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context="sccc.eample.mycarer_stroke.IndividualRelationshipFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="450dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/relativePicture"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="Name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/relation"
+            android:layout_marginTop="550dp"
+            />
+
+        <TextView
+            android:text="DOB"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/relativedob"
+            android:layout_marginTop="650dp"
+            />
+
+        <TextView
+            android:text="Notes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/relativeInfo"
+            android:layout_marginTop="750dp"
+            android:paddingBottom="100dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Update Relative Details"
+            android:id="@+id/updateRelativeButton"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:background="@drawable/button_style"
+            android:layout_below="@+id/relativeInfo"
+            android:layout_marginBottom="25dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Delete Relative"
+            android:id="@+id/deleteRelativeButton"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:background="@drawable/button_style"
+            android:layout_below="@+id/updateRelativeButton"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

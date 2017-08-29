@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    tools:context="sccc.eample.mycarer_stroke.RelativesAddFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="*Enter Name"
+        android:maxLines="1"
+        android:gravity="top"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:id="@+id/et_name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="*Enter Relation"
+        android:maxLines="1"
+        android:gravity="top"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="80dp"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:id="@+id/et_relation" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="*Enter DOB"
+        android:gravity="top"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="150dp"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:id="@+id/et_dob" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp"
+        android:text="Notes:"
+        android:id="@+id/tv_notes"
+        android:gravity="top"
+        android:maxLines="4"
+        android:overScrollMode="always"
+        android:scrollbarStyle="insideInset"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="220dp"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:maxLines="4"
+        android:hint="Relatives info"
+        android:gravity="top"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/et_notes"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/tv_notes"
+        android:layout_alignTop="@+id/tv_notes" />
+
+    <Button
+        android:id="@+id/bt_choose"
+        android:text="Choose image"
+        android:layout_width="300dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="320dp"
+        android:background="@drawable/button_style"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/ic_face_black_48dp"
+        android:layout_marginTop="450dp" />
+
+    <Button
+        android:id="@+id/bt_add"
+        android:text="Add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_style"
+        android:layout_marginTop="700dp" />
+
+    <Button
+        android:id="@+id/bt_view"
+        android:text="View All"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_style"
+        android:layout_marginTop="750dp" />
+
+</RelativeLayout>
