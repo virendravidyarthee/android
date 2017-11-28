@@ -10,7 +10,7 @@ What the GIF demonstrates?
 4) Receiving messages from the said device.
 5) Sending a message to that device.
 
-<iframe src="https://giphy.com/embed/xUOxfiAMkYYrW0gVJS" width="1280" height="720" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/android-xUOxfiAMkYYrW0gVJS"></a></p>
+<a href="https://gifyu.com/image/pEcQ"><img src="https://s1.gifyu.com/images/meshcom.gif" alt="meshcom.gif" border="0" /></a>
 
 
 What the GIF doesn't demonstrate (Checkout the project to see these functionalities yourself)?
