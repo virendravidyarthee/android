@@ -9,8 +9,6 @@ course. It solely relies on an android device’s Wi-Fi radio capabilities to pr
 limitations enforced during the development process was that: It is to be assumed that the device would not have a stable cellular or
 wifi connection at any point of time.
 Thus the application is a chat app that uses Android’s WiFi p2p technology to establish text based communication over a mesh network. 
-Note: The attached version does not have a functional chat history section of the application. This was because the functional version
-is currently experiencing some bugs.
 
 MyCarer-Stroke
 
