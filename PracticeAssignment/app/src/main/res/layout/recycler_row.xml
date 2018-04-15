@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="6dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="@android:color/white"
+            >
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_thin"
+                android:gravity="center"
+                android:text="Title"
+                app:autoSizeTextType="uniform"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+        </FrameLayout>
+        <ImageView
+            android:id="@+id/iv_imageContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@color/colorAccent"
+            />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:background="@android:color/white">
+            <TextView
+                android:id="@+id/tv_imageID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_thin"
+                android:layout_gravity="start|center_vertical"
+                android:text="ID: "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:layout_marginStart="8dp"/>
+            <TextView
+                android:id="@+id/tv_albumID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_thin"
+                android:layout_gravity="end|center_vertical"
+                android:text="Album ID: "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:layout_marginEnd="8dp"/>
+        </FrameLayout>
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
